@@ -2,19 +2,25 @@
 
 ## Overview of Project
 
-The purpose of this analysis is to view total volume and return for years 2017 and 2018 for the tickers of green stocks provided. The client requested a performance evaluation of the green stocks provided for year 2017 and 2018. 
+The purpose of this analysis is to view total volume and return for years 2017 and 2018 for green stock tickers provided. The client requested a performance evaluation of the green stocks provided for year 2017 and 2018 using a macro with a user-friendly button for end-user ease and accuracy. 
 
 ## Results
 
-Performance results show 2017 was an overall better performing year than 2018 for the same green stocks as shown with positive returns show in green and negative returns show in red.
+Performance results show 2017 was an overall better performing year than 2018 for the same green stocks as shown with positive returns show in green cells and negative returns show in red cells. See analysis below for visual. 
 
 https://github.com/Ninax3/VBA_Challenge/blob/main/VBA_Challenge_2017_Analysis.pdf
 https://github.com/Ninax3/VBA_Challenge/blob/main/VBA_Challenge_2018_Analysis.pdf
 
 
-The “AllStocksAnalysisRefactored” script was notably quicker than the original “AllStocksAnalysis” script by ??? seconds. This is due to the refactored code which has more concise steps and loops using the “Index” code.
+The “AllStocksAnalysisRefactored” script was notably 4 times quicker than the original “AllStocksAnalysis” script at about .8 (unrefactored) vs .2 (refactored) seconds. This is due to the refactored code which has more concise steps and loops using the “Index” code.
 
-<Insert sample of Index code> 
+*Sample of Refactored Code using Index:*
+    
+    For i = 2 To RowCount
+       tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Valu
+        
+    If Cells(i, 1).Value <> Cells(i - 1, 1).Value Then
+       tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
 
 ## Summary
 
