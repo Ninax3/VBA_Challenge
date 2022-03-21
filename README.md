@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-The purpose of this analysis is to view total volume and return for years 2017 and 2018 for green stock tickers provided. The client requested a performance evaluation of the green stocks provided for year 2017 and 2018 using a macro with a user-friendly button for end-user ease and accuracy. 
+    The purpose of this analysis is to view total volume and return for years 2017 and 2018 for green stock tickers provided. The client requested a performance evaluation of the green stocks provided for year 2017 and 2018 using a macro with a user-friendly button for end-user ease and accuracy. 
 
 ## Results
 
