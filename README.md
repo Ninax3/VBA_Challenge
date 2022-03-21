@@ -8,7 +8,8 @@ The purpose of this analysis is to view total volume and return for years 2017 a
 
 Performance results show 2017 was an overall better performing year than 2018 for the same green stocks as shown with positive returns show in green and negative returns show in red.
 
-<Insert hyperlink>
+https://github.com/Ninax3/VBA_Challenge/blob/main/VBA_Challenge_2017_Analysis.pdf
+
 
 The “AllStocksAnalysisRefactored” script was notably quicker than the original “AllStocksAnalysis” script by ??? seconds. This is due to the refactored code which has more concise steps and loops using the “Index” code.
 
