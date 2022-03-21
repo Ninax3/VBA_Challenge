@@ -21,5 +21,5 @@ The disadvantages of refactoring code is it takes time to edit (refactor) the co
 
 In relation to the VBA_Challenge scripts, the refactored code is more concise and less wordy. As a result, the script performs better as it takes less time to complete. In addition, the refactored code makes it easy to add more stocks to the index and/or more entries to each index. Another advantage with the refactored code is, one button can be created to include all of the elements the client requested displaying user-friendly data. A disadvantage of the original code is it did not include formatting of cells and had it as a separate subroutine. 
 
-<insert 2017 png>
+https://github.com/Ninax3/VBA_Challenge/blob/main/VBA_Challenge_2017.png
 <insert 2018 png>
